@@ -14,3 +14,4 @@ image = pipe(prompt, height=512, width=512).images[0]
 pathlib.Path("outputs").mkdir(exist_ok=True)
 image.save("outputs/tiger.png")
 
+
